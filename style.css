@@ -68,3 +68,21 @@ button:hover {
     margin: 0;
     color: #333;
 }
+
+@media (max-width: 768px) {
+    html {
+        font-size: 90%;
+        font-weight: bold;
+    }
+
+    body {
+        padding: 1.5rem 2rem;
+        background: -webkit-linear-gradient(90deg, #832ddb,#3f63d4,#4678b2,#00c9b9,#5398ff);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #832ddb,#3f63d4,#4678b2,#00c9b9,#5398ff);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+        
+    }
+
+    #imc-form {
+        background: -webkit-linear-gradient(90deg, #42036f,#c1635c,#e3e1ba,#a79b59,#cc006e);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #42036f,#c1635c,#e3e1ba,#a79b59,#cc006e);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    }
+}  
+
